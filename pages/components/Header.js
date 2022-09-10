@@ -9,9 +9,9 @@ export default function Header() {
             <p>because lawns suck and solidarity is everything</p>
         </div>
         <nav>
-            <Link href='../about.js'>About</Link>
-            <Link href='../contact.js'>Contact</Link>
-            <Link href='../support.js'>Support</Link>
+            <Link href='/about'>About</Link>
+            <Link href='/contact'>Contact</Link>
+            <Link href='/support'>Support</Link>
         </nav>
         </div>
   )

@@ -23,8 +23,6 @@ export default function Support() {
                 </Link>
             </div>
         </div>
-
-        <div
     </div>
   )
 }
