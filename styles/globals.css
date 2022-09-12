@@ -6,6 +6,7 @@
 html {
 	box-sizing: border-box;
 	overflow-y: scroll;
+	height: 100%;
 }
 body {
 	margin: 0;
@@ -13,6 +14,7 @@ body {
 	overflow-x: hidden;
 	color: #000;
 	font-size: 16px;
+	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -186,7 +188,7 @@ p {
 	color: #464646;
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
 	h1 {
 		font-size: 2rem;
 		letter-spacing: -1px;
@@ -210,4 +212,4 @@ p {
 	p {
 		line-height: 1.4375;
 	}
-}
+} */
