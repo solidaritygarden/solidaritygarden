@@ -1,13 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
-import Header from './components/Header';
-import Meta from './components/Meta';
+import Layout from './components/Layout';
 
 export default function Support() {
 	return (
-		<div>
-			<Meta siteTitle={'Support Us'} siteDescription={'Ways to support out work.'} />
-			<Header />
+		<Layout siteTitle={'Support Us'} siteDescription={'Ways to support out work.'}>
 			<div>
 				<Link href="">
 					<p>Open Collective</p>
@@ -27,6 +24,6 @@ export default function Support() {
 					</Link>
 				</div>
 			</div>
-		</div>
+		</Layout>
 	);
 }

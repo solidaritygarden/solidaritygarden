@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
-import Meta from './components/Meta';
+import Layout from './components/Layout';
 
 export default function Supplies() {
 	return (
-		<div>
-			<Meta siteTitle={'Shop Supplies'} siteDescription={'Get supplies for your garden'} />
-			<Header />
+		<Layout siteTitle={'Shop Supplies'} siteDescription={'Get supplies for your garden'}>
 			Supplies!
-		</div>
+		</Layout>
 	);
 }
