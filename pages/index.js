@@ -5,7 +5,24 @@ import styles from '../styles/Home.module.css';
 const Home = ({ title, description }) => {
 	return (
 		<Layout siteTitle={title} siteDescription={description}>
-			<div className={styles.content}></div>
+			<div className={styles.content}>
+				<section id="aboutBrief">
+					<h2>What We're Aboout</h2>
+					<h3>Solidarity</h3>
+					<h3>Climate Justice</h3>
+					<h3>Food Security</h3>
+					<h3>Land Back</h3>
+				</section>
+				<section id="mutualAidBrief">
+					<h2>What is Mutual Aid?</h2>
+					<h3>Solidarity Not Charity</h3>
+				</section>
+				<section id="involvedWays">
+					<h2>Ways to Get Invlolved</h2>
+					<h3>Donor</h3>
+					<h3>Hands-on Participant</h3>
+				</section>
+			</div>
 		</Layout>
 	);
 };
