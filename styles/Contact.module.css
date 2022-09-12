@@ -1,0 +1,22 @@
+#contactContainer {
+	display: flex;
+	align-items: center;
+	max-width: 50vw;
+	padding: 3em;
+	margin: 3em;
+	background-color: whitesmoke;
+}
+
+#contactForm {
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	/* background-color: bisque; */
+}
+
+.input {
+	display: flex;
+	justify-content: space-between;
+	/* background-color: teal; */
+}

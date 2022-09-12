@@ -2,10 +2,13 @@
 	/* overflow-x: hidden; */
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	min-height: 100%;
+	/* background-color: blueviolet; */
 }
 
 .content {
+	display: flex;
 	flex-grow: 1;
 }
 /* @media (min-width: 768px) {
