@@ -7,4 +7,18 @@
 
 .content {
 	flex-grow: 1;
+	padding: 2em;
+}
+
+.homeTitle {
+	margin-left: 1em;
+}
+
+.homeSubTitle {
+	margin-left: 2em;
+}
+
+.explainer {
+	margin-left: 4em;
+	margin-right: 4em;
 }
