@@ -1,0 +1,16 @@
+.content {
+	flex-grow: 1;
+	padding: 2em;
+}
+.aboutTitle {
+	margin-left: 1em;
+}
+
+.aboutSubTitle {
+	margin-left: 2em;
+}
+
+.explainer {
+	margin-left: 4em;
+	margin-right: 4em;
+}
