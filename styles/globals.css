@@ -167,6 +167,10 @@ h1 {
 	line-height: 1.1875;
 }
 
+figcaption {
+	color: transparent;
+}
+
 h2 {
 	font-size: 1.7rem;
 	letter-spacing: -0.75px;

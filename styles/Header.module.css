@@ -18,6 +18,14 @@
 	background-color: rebeccapurple;
 }
 
+.title {
+	font-size: xx-large;
+	text-transform: uppercase;
+}
+.subtitle {
+	color: aliceblue;
+}
+
 /* @media (min-width: 768px) {
 	.header {
 		height: 100vh;

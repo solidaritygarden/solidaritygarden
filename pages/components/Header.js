@@ -6,15 +6,20 @@ import styles from '../../styles/Header.module.css';
 export default function Header() {
 	return (
 		<nav className={styles.nav}>
-			{/* <Image src="/Grow_it_yourself_Solidarity_edit.jpg" width="300vw" height={300} /> */}
+			{/* <figure>
+				<Image src="/Grow_it_yourself_Solidarity_edit.jpg" width="300vw" height={300} />
+				<figcaption>This is an image of world war 2 victory garden propaganda</figcaption>
+			</figure> */}
 			<div>
-				<h1>Solidarity Garden</h1>
-				<p>because lawns suck and solidarity is everything</p>
+				<Link href="/">
+					<a className={styles.title}>Solidarity Garden</a>
+				</Link>
+				<p className={styles.subtitle}>because lawns suck and solidarity is everything</p>
 			</div>
-			<Link href="/about">About</Link>
+			<Link href="/about">How It Works</Link>
+			<Link href="/supplies">Supplies</Link>
 			<Link href="/contact">Contact</Link>
 			<Link href="/support">Support</Link>
-			<Link href="/shop">Shop</Link>
 		</nav>
 	);
 }

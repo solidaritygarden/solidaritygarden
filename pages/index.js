@@ -1,11 +1,15 @@
-import Layout from './components/Layout';
 import PropTypes from 'prop-types';
+import Header from './components/Header';
+import Meta from './components/Meta';
+import styles from '../styles/Home.module.css';
 
 const Home = ({ title, description }) => {
 	return (
-		<Layout pathname="/" siteTitle={title} siteDescription={description}>
-			Hello World.
-		</Layout>
+		<div>
+			<Meta siteTitle={title} siteDescription={description} />
+			<Header />
+			<div className={styles.content}></div>
+		</div>
 	);
 };
 
