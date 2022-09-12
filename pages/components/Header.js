@@ -17,9 +17,9 @@ export default function Header() {
 				<p className={styles.subtitle}>because lawns suck and solidarity is everything</p>
 			</div>
 			<Link href="/about">How It Works</Link>
-			<Link href="/supplies">Supplies</Link>
-			<Link href="/contact">Contact</Link>
+			{/* <Link href="/supplies">Supplies</Link> */}
 			<Link href="/support">Support</Link>
+			<Link href="/contact">Contact</Link>
 		</nav>
 	);
 }

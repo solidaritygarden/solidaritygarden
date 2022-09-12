@@ -3,7 +3,10 @@ import Layout from './components/Layout';
 
 export default function About() {
 	return (
-		<Layout>
+		<Layout
+			siteTitle={'How It Works'}
+			siteDescription={'Step by step explainer for the solidarity garden process works'}
+		>
 			<div>
 				<h2>How It Works</h2>
 				<h3>Pre-season</h3>
