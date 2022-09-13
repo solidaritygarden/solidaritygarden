@@ -1,64 +1,128 @@
-import Link from 'next/link';
+import PropTypes from 'prop-types';
 import Layout from './components/Layout';
-import styles from '../styles/About.module.css';
+import styles from '../styles/Home.module.css';
+import Image from 'next/image';
 
-export default function About() {
+const Home = ({ title, description }) => {
 	return (
-		<Layout
-			siteTitle={'How It Works'}
-			siteDescription={'Step by step explainer for the solidarity garden process works'}
-		>
+		<Layout siteTitle={title} siteDescription={description}>
 			<div className={styles.content}>
-				<div>
-					<h2 className={styles.aboutTitle}>How It Works</h2>
+				<section>
+					<h2 className={styles.title}>What We're About</h2>
+					<div id={styles.solidaritySection}>
+						<div id={styles.solidarityExplainer}>
+							<h3 className={styles.subtitle}>Solidarity</h3>
+							<p className={styles.explainer}>
+								I'm baby pBR&B forage bespoke small batch aesthetic sriracha, yes plz 90's godard salvia williamsburg
+								roof party irony tacos letterpress. Everyday carry chartreuse bespoke, vexillologist jean shorts cronut
+								butcher DSA yr man braid viral vinyl. IPhone cold-pressed jean shorts umami, XOXO art party hella occupy
+								succulents cray coloring book keytar godard everyday carry plaid. Everyday carry umami pinterest hoodie
+								JOMO dreamcatcher. DIY asymmetrical air plant godard franzen austin tbh neutra. Waistcoat banjo freegan
+								flexitarian drinking vinegar slow-carb pitchfork. Chambray vexillologist fingerstache humblebrag cronut.
+							</p>
+						</div>
+						<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+					</div>
+					<div id={styles.climateSection}>
+						<div id={styles.climateExplainer}>
+							<h3 className={styles.subtitle}>Climate Justice</h3>
+							<p className={styles.explainer}>
+								Tofu chicharrones hexagon fingerstache occupy. Whatever portland direct trade pork belly meggings.
+								Kickstarter hammock chambray marfa hella PBR&B. Vibecession yr 3 wolf moon sustainable, williamsburg
+								everyday carry schlitz. Raclette microdosing iceland mustache. Poutine four loko food truck, vape
+								glossier flexitarian cloud bread umami hella cardigan readymade affogato banh mi biodiesel.
+							</p>
+						</div>
+						<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
+					</div>
+					<div>
+						<h3 className={styles.subtitle}>Food Security</h3>
+						<p className={styles.explainer}>
+							Pickled tacos narwhal la croix subway tile snackwave synth hot chicken hoodie. Praxis tbh tattooed ascot
+							green juice chillwave marfa chicharrones. Sartorial scenester lumbersexual, bodega boys tattooed normcore
+							coloring book snackwave pork belly roof party kitsch. Cliche gatekeep small batch, cornhole bruh mukbang
+							microdosing +1 lyft jianbing art party pork belly vaporware. Tumblr paleo skateboard celiac shoreditch DIY
+							activated charcoal tote bag trust fund JOMO. Yuccie iPhone synth knausgaard shoreditch mlkshk crucifix
+							wayfarers.
+						</p>
+					</div>
+				</section>
+				<section id={styles.mutualAidSection}>
+					<h2 className={styles.title}>What is Mutual Aid?</h2>
+					<div id={styles.mutualAidInnerSection}>
+						{/* <p className={styles.explainer}>
+						Subway tile air plant bespoke fashion axe, before they sold out cliche sustainable twee retro fanny pack
+						deep v umami. Kitsch cray artisan hot chicken franzen tumblr. Photo booth schlitz chartreuse mlkshk. Etsy
+						hammock XOXO, lyft salvia knausgaard keytar yr next level austin hot chicken small batch.
+					</p> */}
+						<p>
+							Live-edge hammock fam banh mi banjo, kickstarter forage fit succulents. Organic marfa affogato four loko
+							thundercats deep v tousled. Sus same craft beer viral freegan jean shorts. Trust fund typewriter you
+							probably haven't heard of them quinoa. Polaroid organic helvetica, raw denim kickstarter tumblr
+							shoreditch. Af leggings fixie, hella typewriter cred slow-carb before they sold out single-origin coffee
+							dreamcatcher beard pop-up gastropub selvage.
+						</p>
+						<div className={styles.landBackPicture}>
+							<h3 className={styles.subtitle}>Solidarity Not Charity</h3>
+							<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+						</div>
+					</div>
+				</section>
+				<section id={styles.landback}>
+					<h3 className={styles.subtitle}>Land Back</h3>
+					<div className={styles.center}>
+						<Image src="/small-joanna-kozik-yht4AxGHS8Y-unsplash.jpg" height="200vh" width="500vw" />
+					</div>
 					<p className={styles.explainer}>
-						I'm baby gochujang typewriter hashtag ethical, post-ironic pour-over tacos irony chambray coloring book man
-						braid waistcoat sartorial. Pitchfork hella offal, sustainable tonx literally subway tile shaman twee vinyl.
-						Big mood iPhone asymmetrical la croix chambray pitchfork. Retro whatever narwhal actually hexagon meh copper
-						mug asymmetrical lumbersexual polaroid vegan four loko cloud bread lyft kogi.
+						3 wolf moon farm-to-table kinfolk twee. Hella cornhole art party vibecession edison bulb viral locavore XOXO
+						jean shorts air plant vegan gochujang. Neutra art party four loko tonx cray cardigan, lyft waistcoat
+						gastropub church-key. Fam portland try-hard ethical bodega boys hexagon flexitarian shaman microdosing
+						jianbing beard selvage twee. Narwhal yes plz trust fund neutra flexitarian activated charcoal affogato big
+						mood dreamcatcher post-ironic meggings 8-bit. Hashtag hell of marfa williamsburg, sustainable YOLO four
+						dollar toast asymmetrical.
 					</p>
-				</div>
-				<div>
-					<h3 className={styles.aboutSubTitle}>Pre-season</h3>
-					<p className={styles.explainer}>
-						Whatever taxidermy raw denim franzen etsy. Deep v lyft pitchfork yr, gochujang palo santo narwhal venmo
-						selvage butcher small batch fingerstache. Forage echo park cardigan coloring book freegan glossier gochujang
-						palo santo 3 wolf moon. Vice direct trade knausgaard portland pabst, bicycle rights jean shorts yuccie
-						slow-carb synth vape beard.
-					</p>
-				</div>
-				<div>
-					<h3 className={styles.aboutSubTitle}>Growing Season</h3>
-					<p className={styles.explainer}>
-						Schlitz hell of tofu iceland pitchfork. Listicle roof party fit, subway tile chambray vaporware celiac
-						knausgaard. Street art snackwave meditation austin, mukbang unicorn small batch banh mi direct trade. Next
-						level actually fashion axe you probably haven't heard of them, raw denim wolf snackwave.
-					</p>
-				</div>
-				<div>
-					<h3 className={styles.aboutSubTitle}>Harvest</h3>
-					<p className={styles.explainer}>
-						Meh cornhole 8-bit, kogi pitchfork biodiesel unicorn plaid vegan fashion axe aesthetic mixtape try-hard tote
-						bag salvia. Skateboard gatekeep keffiyeh XOXO air plant before they sold out yes plz, street art distillery
-						swag squid austin meggings. Stumptown tumeric tattooed disrupt. Photo booth man bun tbh, disrupt blog
-						everyday carry intelligentsia XOXO. Organic thundercats tilde same, chartreuse mustache mixtape bruh photo
-						booth meh blue bottle narwhal. Irony artisan mumblecore cray, pop-up palo santo literally twee raclette
-						fanny pack DIY chicharrones vinyl.
-					</p>
-				</div>
-				<div>
-					<h3 className={styles.aboutSubTitle}>Moving On</h3>
-					<p className={styles.explainer}>
-						Yuccie ascot praxis la croix gluten-free cliche iPhone twee plaid. IPhone pop-up air plant master cleanse,
-						pok pok artisan tacos shoreditch coloring book lumbersexual raw denim bodega boys helvetica wolf lo-fi.
-						Austin XOXO waistcoat chartreuse flexitarian narwhal helvetica hashtag, twee cloud bread thundercats.
-						Bitters hammock af actually.
-					</p>
-				</div>
-			</div>
-			<div>
-				Back to <Link href="/">Home</Link>
+				</section>
+
+				<section id={styles.waysSection}>
+					<h2 className={styles.title}>Ways to Get Involved</h2>
+					<div id={styles.waysCardSection}>
+						<div className={styles.waysCard}>
+							<h3 className={styles.subtitle}>Donor</h3>
+							<p className={styles.explainer}>
+								Schlitz activated charcoal drinking vinegar banh mi, crucifix pop-up ennui quinoa readymade fam pug kogi
+								chicharrones irony vaporware. Shabby chic distillery green juice tumblr, mixtape banh mi hashtag
+								sustainable subway tile farm-to-table freegan. Taiyaki helvetica lumbersexual, beard woke four dollar
+								toast keffiyeh.
+							</p>
+						</div>
+						<div className={styles.waysCard}>
+							<h3 className={styles.subtitle}>Hands-on Participant</h3>
+							<p className={styles.explainer}>
+								Roof party tumblr ugh pickled waistcoat taiyaki ennui retro marfa snackwave austin typewriter
+								kickstarter four dollar toast. Shaman thundercats try-hard ugh, woke literally cornhole mlkshk
+								knausgaard edison bulb normcore. Taiyaki gentrify readymade, tousled tote bag offal lo-fi typewriter.
+							</p>
+						</div>
+					</div>
+				</section>
 			</div>
 		</Layout>
 	);
+};
+
+export default Home;
+
+export async function getStaticProps() {
+	const siteConfig = await import(`../data/config.json`);
+	return {
+		props: {
+			title: siteConfig.default.title,
+			description: siteConfig.default.description,
+		}, // will be passed to the page component as props
+	};
 }
+
+Home.propTypes = {
+	title: PropTypes.string,
+	description: PropTypes.string,
+};
