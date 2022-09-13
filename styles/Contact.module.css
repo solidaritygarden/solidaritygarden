@@ -1,6 +1,18 @@
-#contactContainer {
+#contactBackground {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('/small-sandie-clarke-q13Zq1Jufks-unsplash.jpg');
+	background-size: 100em;
+}
+
+#contactContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
 	max-width: 50vw;
 	padding: 3em;
 	margin: 3em;
@@ -18,5 +30,19 @@
 .input {
 	display: flex;
 	justify-content: space-between;
+	margin: 1em;
 	/* background-color: teal; */
+}
+.input > input {
+	/* background-color: blueviolet; */
+	min-width: 50px;
+	max-width: 300px;
+}
+
+#contactButton {
+	background-color: rebeccapurple;
+	border-radius: 5px;
+	color: whitesmoke;
+	max-width: 5em;
+	align-self: center;
 }
