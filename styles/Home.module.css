@@ -14,6 +14,29 @@
 	width: 100%;
 }
 
+#landingCardSection {
+	display: flex;
+	flex-direction: row;
+	padding: 0.5em;
+	background-color: lightgray;
+}
+
+.landingCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: lavender;
+	padding: 1em;
+	margin: 1em;
+	min-width: 30%;
+}
+
+.landingCard > h3 {
+	margin-top: 2em;
+	align-self: center;
+	text-align: center;
+}
+
 .title {
 	margin-left: 1em;
 }

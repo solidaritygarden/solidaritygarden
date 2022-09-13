@@ -1,16 +1,178 @@
+.layout {
+	/* overflow-x: hidden; */
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
 .content {
+	display: flex;
+	flex-direction: column;
 	flex-grow: 1;
 	padding: 2em;
+	align-items: center;
+	width: 100%;
 }
-.aboutTitle {
+
+#landingCardSection {
+	display: flex;
+	flex-direction: row;
+	padding: 2em;
+	background-color: blue;
+}
+
+.landingCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: indigo;
+}
+
+.title {
 	margin-left: 1em;
 }
 
-.aboutSubTitle {
-	margin-left: 2em;
+.subtitle {
+	/* margin-left: 2em; */
 }
 
 .explainer {
 	margin-left: 4em;
 	margin-right: 4em;
+}
+
+#solidaritySection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 2em;
+}
+#landExplainer {
+	/* display: flex; */
+	flex-direction: row-reverse;
+	max-width: 40%;
+	justify-content: space-around;
+	/* background-color: darkolivegreen; */
+}
+
+#climateSection {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	margin: 2em;
+	/* background-color: mediumaquamarine; */
+}
+#climateExplainer {
+	/* display: flex; */
+	flex-direction: column;
+	max-width: 40%;
+	/* background-color: orangered; */
+}
+
+#waysSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#landback {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-top: solid lightgrey;
+	border-bottom: solid lightgrey;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	max-width: 50em;
+	/* background-color: deepskyblue; */
+}
+/* #landback > h3 {
+	background-color: yellowgreen;
+} */
+
+#mutualAidSection {
+	display: flex;
+	flex-direction: column;
+	border-top: solid lightgrey;
+	margin-top: 3em;
+	padding-top: 3em;
+	max-width: 60em;
+}
+#mutualAidInnerSection {
+	display: flex;
+	flex-direction: row;
+	/* width: 100vw; */
+	align-items: center;
+	justify-content: space-between;
+}
+#mutualAidSection > h3 {
+	align-self: center;
+}
+.landBackPicture {
+	display: flex;
+	flex-direction: column;
+	background-color: aquamarine;
+	min-height: 20em;
+	min-width: 20em;
+	margin-left: 10em;
+}
+#waysCardSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.waysCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 35%;
+	min-height: 20em;
+	margin: 1em;
+	padding: 1em;
+	background-color: bisque;
+}
+.waysCard > h3 {
+	margin: 0;
+	/* background-color: darkorchid; */
+}
+.waysCard > p {
+	margin: 0;
+	/* background-color: goldenrod; */
+}
+.content {
+	flex-grow: 1;
+	padding: 2em;
+}
+
+.title {
+	margin-left: 1em;
+}
+
+.subtitle {
+	margin-left: 2em;
+	font-size: x-large;
+	z-index: 2;
+}
+
+.explainer {
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+.supportSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* background-color: mediumaquamarine; */
+}
+.center {
+	margin: 0;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	/* background-color: forestgreen; */
 }
