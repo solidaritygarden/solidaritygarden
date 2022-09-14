@@ -10,23 +10,46 @@ const Home = ({ title, description }) => {
 			<div className={styles.content}>
 				<section id={styles.landingCardSection}>
 					<div className={styles.landingCard}>
-						<figure>
-							<Image src="/smallest-jonathan-kemper-1HHrdIoLFpU-unsplash (1).jpg" width="200vw" height="300vh" />
-							<figcaption></figcaption>
+						<figure className={styles.imageWrapper}>
+							<div style={{ width: '100%', height: '100%', position: 'relative' }}>
+								<Image
+									src="/smallest-jonathan-kemper-1HHrdIoLFpU-unsplash (1).jpg"
+									width={500}
+									height={500}
+									layout="responsive"
+								/>
+								{/* <figcaption>
+								Hands, wearing garden gloves pulls a green leafy vegetable from a raised bed garden.
+							</figcaption> */}
+							</div>
 						</figure>
 						<h3>* grow veggies for yourself and your neighbors</h3>
 					</div>
 					<div className={styles.landingCard}>
-						<figure>
-							<Image src="/small-valentina-locatelli-P8bsrm8KbM0-unsplash.jpg" width="200vw" height="300vh" />
-							<figcaption></figcaption>
+						<figure className={styles.imageWrapper}>
+							<div style={{ width: '100%', height: '100%', position: 'relative' }}>
+								<Image
+									src="/small-valentina-locatelli-P8bsrm8KbM0-unsplash.jpg"
+									width={500}
+									height={500}
+									layout="responsive"
+								/>
+								{/* <figcaption></figcaption> */}
+							</div>
 						</figure>
 						<h3>* ditch your lawn for a sustainable option</h3>
 					</div>
 					<div className={styles.landingCard}>
-						<figure>
-							<Image src="/small-priscilla-du-preez-JCZ2pE-Szpw-unsplash.jpg" width="200vw" height="300vh" />
-							<figcaption></figcaption>
+						<figure className={styles.imageWrapper}>
+							<div style={{ width: '100%', height: '100%', position: 'relative' }}>
+								<Image
+									src="/small-priscilla-du-preez-JCZ2pE-Szpw-unsplash.jpg"
+									width={500}
+									height={500}
+									layout="responsive"
+								/>
+								{/* <figcaption></figcaption> */}
+							</div>
 						</figure>
 						<h3>* build local food security</h3>
 					</div>

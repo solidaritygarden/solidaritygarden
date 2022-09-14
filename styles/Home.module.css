@@ -5,6 +5,20 @@
 	min-height: 100%;
 }
 
+.imageWrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/* z-index: 1; */
+}
+
+.image {
+	/* object-fit: contain;
+	width: 100%!;
+	position: relative !important;
+	height: unset !important; */
+}
+
 .content {
 	display: flex;
 	flex-direction: column;
@@ -33,8 +47,9 @@
 
 .landingCard > h3 {
 	margin-top: 2em;
-	align-self: center;
+	align-self: flex-start;
 	text-align: center;
+	z-index: 2;
 }
 
 .title {
