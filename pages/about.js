@@ -21,7 +21,10 @@ const Home = ({ title, description }) => {
 								flexitarian drinking vinegar slow-carb pitchfork. Chambray vexillologist fingerstache humblebrag cronut.
 							</p>
 						</div>
-						<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+						<figure>
+							<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+							<figcaption></figcaption>
+						</figure>
 					</div>
 					<div id={styles.climateSection}>
 						<div id={styles.climateExplainer}>
@@ -33,7 +36,10 @@ const Home = ({ title, description }) => {
 								glossier flexitarian cloud bread umami hella cardigan readymade affogato banh mi biodiesel.
 							</p>
 						</div>
-						<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
+						<figure>
+							<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
+							<figcaption></figcaption>
+						</figure>
 					</div>
 					<div>
 						<h3 className={styles.subtitle}>Food Security</h3>
@@ -64,14 +70,20 @@ const Home = ({ title, description }) => {
 						</p>
 						<div className={styles.landBackPicture}>
 							<h3 className={styles.subtitle}>Solidarity Not Charity</h3>
-							<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+							<figure>
+								<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+								<figcaption></figcaption>
+							</figure>
 						</div>
 					</div>
 				</section>
 				<section id={styles.landback}>
 					<h3 className={styles.subtitle}>Land Back</h3>
 					<div className={styles.center}>
-						<Image src="/small-joanna-kozik-yht4AxGHS8Y-unsplash.jpg" height="200vh" width="500vw" />
+						<figure>
+							<Image src="/small-joanna-kozik-yht4AxGHS8Y-unsplash.jpg" height="200vh" width="500vw" />
+							<figcaption></figcaption>
+						</figure>
 					</div>
 					<p className={styles.explainer}>
 						3 wolf moon farm-to-table kinfolk twee. Hella cornhole art party vibecession edison bulb viral locavore XOXO

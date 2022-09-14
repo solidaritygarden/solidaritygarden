@@ -15,6 +15,7 @@ export default function Support() {
 						is able to be hands on, but everyone is able to participate!
 					</p>
 				</div>
+				{/* Land Section */}
 				<div id={styles.landSection}>
 					<div id={styles.landExplainer}>
 						<h3 className={styles.subtitle}>Land</h3>
@@ -28,6 +29,7 @@ export default function Support() {
 					</div>
 					<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
 				</div>
+				{/* Labor Section */}
 				<div id={styles.laborSection}>
 					<div id={styles.laborExplainer}>
 						<h3 className={styles.subtitle}>Labor</h3>
@@ -40,6 +42,7 @@ export default function Support() {
 					</div>
 					<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
 				</div>
+				{/* Love Section */}
 				<div>
 					<h3 className={styles.subtitle}>Love</h3>
 					<p className={styles.explainer}>
@@ -52,6 +55,7 @@ export default function Support() {
 						viral chambray, cronut salvia cloud bread kinfolk wayfarers sus.
 					</p>
 				</div>
+				{/* Money section */}
 				<div id={styles.moneySection}>
 					<div id={styles.moneyExplainer}>
 						<h3 className={styles.subtitle}>Lastly, money</h3>
@@ -80,7 +84,6 @@ export default function Support() {
 						</div>
 					</div>
 				</div>
-				<div></div>
 			</div>
 		</Layout>
 	);

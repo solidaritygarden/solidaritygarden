@@ -1,19 +1,21 @@
 #supportContainer {
 	flex-direction: column;
+	padding: 2em;
 }
 
 #landSection {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	margin: 2em;
+	justify-content: space-between;
+	margin: 1em;
+	background-color: bisque;
 }
 #landExplainer {
 	/* display: flex; */
 	flex-direction: row-reverse;
 	max-width: 40%;
 	justify-content: space-around;
-	/* background-color: darkolivegreen; */
+	background-color: darkolivegreen;
 }
 
 #laborSection {
@@ -21,7 +23,7 @@
 	flex-direction: row-reverse;
 	justify-content: space-around;
 	margin: 2em;
-	/* background-color: mediumaquamarine; */
+	background-color: mediumaquamarine;
 }
 #laborExplainer {
 	/* display: flex; */
@@ -38,6 +40,7 @@
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: space-around;
+	background-color: palegoldenrod;
 }
 #imageSection {
 	display: flex;

@@ -10,15 +10,24 @@ const Home = ({ title, description }) => {
 			<div className={styles.content}>
 				<section id={styles.landingCardSection}>
 					<div className={styles.landingCard}>
-						<Image src="/smallest-jonathan-kemper-1HHrdIoLFpU-unsplash (1).jpg" width="200vw" height="300vh" />
+						<figure>
+							<Image src="/smallest-jonathan-kemper-1HHrdIoLFpU-unsplash (1).jpg" width="200vw" height="300vh" />
+							<figcaption></figcaption>
+						</figure>
 						<h3>* grow veggies for yourself and your neighbors</h3>
 					</div>
 					<div className={styles.landingCard}>
-						<Image src="/small-valentina-locatelli-P8bsrm8KbM0-unsplash.jpg" width="200vw" height="300vh" />
+						<figure>
+							<Image src="/small-valentina-locatelli-P8bsrm8KbM0-unsplash.jpg" width="200vw" height="300vh" />
+							<figcaption></figcaption>
+						</figure>
 						<h3>* ditch your lawn for a sustainable option</h3>
 					</div>
 					<div className={styles.landingCard}>
-						<Image src="/small-priscilla-du-preez-JCZ2pE-Szpw-unsplash.jpg" width="200vw" height="300vh" />
+						<figure>
+							<Image src="/small-priscilla-du-preez-JCZ2pE-Szpw-unsplash.jpg" width="200vw" height="300vh" />
+							<figcaption></figcaption>
+						</figure>
 						<h3>* build local food security</h3>
 					</div>
 				</section>
