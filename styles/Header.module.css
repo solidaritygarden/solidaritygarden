@@ -1,41 +1,81 @@
 .header {
 	display: flex;
-	/* flex: 1; */
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: stretch;
 	align-items: flex-end;
+	align-content: flex-start;
 	width: 100%;
 	padding: 1em;
-	padding-right: 3em;
-	background-color: rebeccapurple;
+	background-image: url('/small-sandie-clarke-Hands-in-Dirt-unsplash.png');
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	position: relative;
+	height: 15em;
 }
 .siteTitle {
 	display: flex;
 	flex-direction: column;
-	max-height: 6em;
-	min-width: 50%;
-	margin-left: 2em;
-	/* margin-right: 2em; */
-	/* background-color: darkcyan; */
+	align-self: flex-start;
+	width: 30%;
+	z-index: 4;
+	background-color: rgba(239, 239, 240, 0.7);
+	position: absolute;
+	font-weight: bolder;
+	height: 9.5em;
+	box-shadow: 0 0 0 10px rgba(239, 239, 240, 0.5), 0 0 0 15px rgba(239, 239, 240, 0.6);
+	/* 0 0 0 20px rgba(239, 239, 240, 0.7), 0 0 0 25px rgba(239, 239, 240, 0.8), 0 0 0 30px rgba(239, 239, 240, 0.9); */
 }
+
 .nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	max-width: 50%;
 	min-width: 50%;
-	background-color: azure;
-	flex: 1;
+	min-height: 25%;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	margin: -1em;
+	color: rebeccapurple;
+	text-decoration: underline;
+	/* background-color: rgba(110, 77, 207, 0.7); */
+	z-index: 3;
+}
+
+#scrim {
+	height: 8vh;
+	margin: -1em;
+	/* opacity: 0; */
+	/* transition: 0.5s ease; */
+	/* background-color: rgba(239, 239, 240, 0.7); */
+	/* z-index: 2; */
+	background-color: rgba(239, 239, 240, 0.7);
+	width: 100%;
+	position: absolute;
+	/* background-color: rebeccapurple; */
+	z-index: 3;
+	box-shadow: 0px -4px 12px rgba(239, 239, 240, 0.7);
+}
+
+.imageWrapper {
+	display: flex;
+
+	justify-content: stretch;
+	width: 100%;
+	/* z-index: 1; */
 }
 
 .title {
 	margin-top: 0.25em;
-	/* margin-bottom: 0.25em; */
 	font-size: 50px;
 	text-transform: uppercase;
+	color: rebeccapurple;
+	font-weight: bolder;
 }
 .subtitle {
-	color: aliceblue;
+	color: black;
+	font-weight: bolder;
 }
 
 /* @media (min-width: 768px) {
