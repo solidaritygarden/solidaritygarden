@@ -13,7 +13,7 @@ const Home = ({ title, description }) => {
 						<figure className={styles.imageWrapper}>
 							<div style={{ width: '100%', height: '100%', position: 'relative' }}>
 								<Image
-									src="/smallest-jonathan-kemper-1HHrdIoLFpU-unsplash (1).jpg"
+									src="/smallest-jonathan-kemper-1HHrdIoLFpU-unsplash.jpg"
 									width={500}
 									height={500}
 									layout="responsive"
@@ -29,7 +29,7 @@ const Home = ({ title, description }) => {
 						<figure className={styles.imageWrapper}>
 							<div style={{ width: '100%', height: '100%', position: 'relative' }}>
 								<Image
-									src="/small-valentina-locatelli-P8bsrm8KbM0-unsplash.jpg"
+									src="/small-valentina-locatelli-flower-lawn-dark-unsplash.jpg"
 									width={500}
 									height={500}
 									layout="responsive"
@@ -43,7 +43,7 @@ const Home = ({ title, description }) => {
 						<figure className={styles.imageWrapper}>
 							<div style={{ width: '100%', height: '100%', position: 'relative' }}>
 								<Image
-									src="/small-priscilla-du-preez-JCZ2pE-Szpw-unsplash.jpg"
+									src="/small-priscilla-du-preez-tending-garden-unsplash.jpg"
 									width={500}
 									height={500}
 									layout="responsive"

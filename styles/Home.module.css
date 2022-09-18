@@ -1,3 +1,27 @@
+#landingCardSection {
+	display: flex;
+	flex-direction: row;
+	padding: 0.5em;
+	background-color: lightgray;
+}
+
+.landingCard {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	background-color: lavender;
+	padding: 1em;
+	margin: 1em;
+	min-width: 30%;
+}
+
+.landingCard > h3 {
+	margin-top: 2em;
+	align-self: flex-start;
+	text-align: center;
+	z-index: 2;
+}
+
 .layout {
 	/* overflow-x: hidden; */
 	display: flex;
@@ -26,30 +50,6 @@
 	padding: 2em;
 	align-items: center;
 	width: 100%;
-}
-
-#landingCardSection {
-	display: flex;
-	flex-direction: row;
-	padding: 0.5em;
-	background-color: lightgray;
-}
-
-.landingCard {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: lavender;
-	padding: 1em;
-	margin: 1em;
-	min-width: 30%;
-}
-
-.landingCard > h3 {
-	margin-top: 2em;
-	align-self: flex-start;
-	text-align: center;
-	z-index: 2;
 }
 
 .title {
