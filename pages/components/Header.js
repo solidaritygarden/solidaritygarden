@@ -21,7 +21,10 @@ export default function Header() {
 			<span id={styles.scrim}></span>
 			<div className={styles.siteTitle}>
 				<Link href="/">
-					<a className={styles.title}>Solidarity Garden</a>
+					<a className={styles.title}>Solidarity</a>
+				</Link>
+				<Link href="/">
+					<a className={styles.title}>Garden</a>
 				</Link>
 				<p className={styles.subtitle}>because lawns suck and solidarity is everything</p>
 			</div>

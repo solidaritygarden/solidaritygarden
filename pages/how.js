@@ -1,4 +1,4 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import Layout from './components/Layout';
 import styles from '../styles/About.module.css';
 
@@ -56,9 +56,9 @@ export default function How() {
 					</p>
 				</div>
 			</div>
-			<div>
+			{/* <div>
 				Back to <Link href="/">Home</Link>
-			</div>
+			</div> */}
 		</Layout>
 	);
 }

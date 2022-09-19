@@ -8,7 +8,9 @@ export default function Layout({ siteDescription, siteTitle, children }) {
 		<section className={styles.layout}>
 			<Meta siteTitle={siteTitle} siteDescription={siteDescription} />
 			<Header />
-			<div className={styles.content}>{children}</div>
+			<div id={styles.contentBackground}>
+				<div id={styles.content}>{children}</div>
+			</div>
 		</section>
 	);
 }

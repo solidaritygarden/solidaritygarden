@@ -9,22 +9,26 @@
 	background-image: url('/small-sandie-clarke-Hands-in-Dirt-unsplash.png');
 	background-size: cover;
 	background-position: center;
-	z-index: 1;
-	position: relative;
+	z-index: 2;
+	position: fixed;
+	top: 0;
 	height: 15em;
 }
 .siteTitle {
 	display: flex;
 	flex-direction: column;
 	align-self: flex-start;
-	width: 30%;
+	/* align-items: flex-start; */
+	width: 40%;
 	z-index: 4;
 	background-color: rgba(239, 239, 240, 0.7);
 	position: absolute;
 	font-weight: bolder;
 	height: 9.5em;
-	box-shadow: 0 0 0 10px rgba(239, 239, 240, 0.5), 0 0 0 15px rgba(239, 239, 240, 0.6);
-	/* 0 0 0 20px rgba(239, 239, 240, 0.7), 0 0 0 25px rgba(239, 239, 240, 0.8), 0 0 0 30px rgba(239, 239, 240, 0.9); */
+	/* contain: content; */
+	padding-left: 1em;
+	box-shadow: 0px -4px 12px rgba(239, 239, 240, 0.7), 0px -4px 12px rgba(239, 239, 240, 0.7);
+	/* box-shadow: 0 0 0 10px rgba(239, 239, 240, 0.5), 0 0 0 15px rgba(239, 239, 240, 0.6); */
 }
 
 .nav {
@@ -46,14 +50,9 @@
 #scrim {
 	height: 8vh;
 	margin: -1em;
-	/* opacity: 0; */
-	/* transition: 0.5s ease; */
-	/* background-color: rgba(239, 239, 240, 0.7); */
-	/* z-index: 2; */
 	background-color: rgba(239, 239, 240, 0.7);
 	width: 100%;
 	position: absolute;
-	/* background-color: rebeccapurple; */
 	z-index: 3;
 	box-shadow: 0px -4px 12px rgba(239, 239, 240, 0.7);
 }
@@ -63,11 +62,9 @@
 
 	justify-content: stretch;
 	width: 100%;
-	/* z-index: 1; */
 }
 
 .title {
-	margin-top: 0.25em;
 	font-size: 50px;
 	text-transform: uppercase;
 	color: rebeccapurple;
@@ -76,6 +73,7 @@
 .subtitle {
 	color: black;
 	font-weight: bolder;
+	/* align-self: center; */
 }
 
 /* @media (min-width: 768px) {

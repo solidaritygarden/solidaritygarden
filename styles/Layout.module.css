@@ -4,12 +4,25 @@
 	flex-direction: column;
 	align-items: center;
 	min-height: 100%;
+	z-index: 1;
 	/* background-color: blueviolet; */
 }
 
-.content {
+#contentBackground {
+	background-image: url(/avinash-kumar-soil-vertical-unsplash.jpg);
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: scroll;
+}
+#content {
 	display: flex;
-	flex-grow: 1;
+	position: relative;
+	top: 17em;
+	background-color: rgba(239, 239, 240, 0.7);
+	margin: 4em;
 }
 /* @media (min-width: 768px) {
 	.layout {
