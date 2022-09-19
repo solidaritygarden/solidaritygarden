@@ -1,0 +1,32 @@
+.layout {
+	/* overflow-x: hidden; */
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding: 2em;
+	align-items: center;
+	width: 100%;
+}
+
+.explainer {
+	margin-left: 4em;
+	margin-right: 4em;
+	color: black;
+}
+
+.title {
+	margin-left: 1em;
+}
+
+.subtitle {
+	margin-left: 2em;
+	font-size: x-large;
+	z-index: 2;
+	color: rebeccapurple;
+}

@@ -1,6 +1,6 @@
 // import Link from 'next/link';
 import Layout from './components/Layout';
-import styles from '../styles/About.module.css';
+import styles from '../styles/How.module.css';
 
 export default function How() {
 	return (
@@ -19,7 +19,7 @@ export default function How() {
 					</p>
 				</div>
 				<div>
-					<h3 className={styles.aboutSubTitle}>Pre-season</h3>
+					<h3 className={styles.subtitle}>Pre-season</h3>
 					<p className={styles.explainer}>
 						Whatever taxidermy raw denim franzen etsy. Deep v lyft pitchfork yr, gochujang palo santo narwhal venmo
 						selvage butcher small batch fingerstache. Forage echo park cardigan coloring book freegan glossier gochujang
@@ -28,7 +28,7 @@ export default function How() {
 					</p>
 				</div>
 				<div>
-					<h3 className={styles.aboutSubTitle}>Growing Season</h3>
+					<h3 className={styles.subtitle}>Growing Season</h3>
 					<p className={styles.explainer}>
 						Schlitz hell of tofu iceland pitchfork. Listicle roof party fit, subway tile chambray vaporware celiac
 						knausgaard. Street art snackwave meditation austin, mukbang unicorn small batch banh mi direct trade. Next
@@ -36,7 +36,7 @@ export default function How() {
 					</p>
 				</div>
 				<div>
-					<h3 className={styles.aboutSubTitle}>Harvest</h3>
+					<h3 className={styles.subtitle}>Harvest</h3>
 					<p className={styles.explainer}>
 						Meh cornhole 8-bit, kogi pitchfork biodiesel unicorn plaid vegan fashion axe aesthetic mixtape try-hard tote
 						bag salvia. Skateboard gatekeep keffiyeh XOXO air plant before they sold out yes plz, street art distillery
@@ -47,7 +47,7 @@ export default function How() {
 					</p>
 				</div>
 				<div>
-					<h3 className={styles.aboutSubTitle}>Moving On</h3>
+					<h3 className={styles.subtitle}>Moving On</h3>
 					<p className={styles.explainer}>
 						Yuccie ascot praxis la croix gluten-free cliche iPhone twee plaid. IPhone pop-up air plant master cleanse,
 						pok pok artisan tacos shoreditch coloring book lumbersexual raw denim bodega boys helvetica wolf lo-fi.
