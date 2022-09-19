@@ -18,7 +18,6 @@ export default function Header() {
 					<figcaption>Hands digging in dirt in a raised bed garden.</figcaption>
 				</div>
 			</figure>
-			<span id={styles.scrim}></span>
 			<div className={styles.siteTitle}>
 				<Link href="/">
 					<a className={styles.title}>Solidarity Garden</a>
@@ -28,7 +27,7 @@ export default function Header() {
 				</Link> */}
 				<p className={styles.subtitle}>because lawns suck and solidarity is everything</p>
 			</div>
-
+			<span id={styles.scrim}></span>
 			<div className={styles.nav}>
 				<Link href="/how">How It Works</Link>
 				<Link href="/support">Support</Link>
