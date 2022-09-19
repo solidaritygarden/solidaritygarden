@@ -12,21 +12,21 @@
 	z-index: 2;
 	position: fixed;
 	top: 0;
-	height: 15em;
+	height: 27vh;
 }
 .siteTitle {
 	display: flex;
 	flex-direction: column;
 	align-self: flex-start;
-	/* align-items: flex-start; */
 	width: 40%;
 	z-index: 4;
 	background-color: rgba(239, 239, 240, 0.7);
 	position: absolute;
 	font-weight: bolder;
-	height: 9.5em;
+	height: 70%;
 	/* contain: content; */
 	padding-left: 1em;
+	padding-top: 2vh;
 	box-shadow: 0px -4px 12px rgba(239, 239, 240, 0.7), 0px -4px 12px rgba(239, 239, 240, 0.7);
 	/* box-shadow: 0 0 0 10px rgba(239, 239, 240, 0.5), 0 0 0 15px rgba(239, 239, 240, 0.6); */
 }
@@ -38,9 +38,9 @@
 	max-width: 50%;
 	min-width: 50%;
 	min-height: 25%;
-	padding-bottom: 1em;
-	padding-top: 1em;
-	margin: -1em;
+	padding-bottom: 1vh;
+	padding-top: 1vh;
+	margin: -2vh;
 	color: rebeccapurple;
 	text-decoration: underline;
 	/* background-color: rgba(110, 77, 207, 0.7); */
@@ -59,7 +59,6 @@
 
 .imageWrapper {
 	display: flex;
-
 	justify-content: stretch;
 	width: 100%;
 }
