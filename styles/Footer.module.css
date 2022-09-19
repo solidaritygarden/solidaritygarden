@@ -4,7 +4,20 @@
 	background-color: rebeccapurple;
 	position: relative;
 	margin: 4em 4em 0em 4em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
 .footer > p {
 	color: whitesmoke;
+	/* text-align: center; */
+}
+.imageWrapper {
+	display: flex;
+	justify-content: stretch;
+	/* margin: 1em; */
+	/* background-color: teal; */
+	width: 2vw;
+	height: 4vh;
 }
