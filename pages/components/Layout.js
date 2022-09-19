@@ -2,6 +2,7 @@ import Header from './Header';
 import Meta from './Meta';
 import styles from '../../styles/Layout.module.css';
 import PropTypes from 'prop-types';
+import Footer from './Footer';
 
 export default function Layout({ siteDescription, siteTitle, children }) {
 	return (
@@ -10,6 +11,7 @@ export default function Layout({ siteDescription, siteTitle, children }) {
 			<Header />
 			<div id={styles.contentBackground}>
 				<div id={styles.content}>{children}</div>
+				<Footer />
 			</div>
 		</section>
 	);
