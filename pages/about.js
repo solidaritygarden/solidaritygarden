@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Layout from './components/Layout';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/About.module.css';
 import Image from 'next/image';
 
 const Home = ({ title, description }) => {

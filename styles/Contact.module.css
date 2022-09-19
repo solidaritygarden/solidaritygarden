@@ -3,9 +3,9 @@
 	align-items: center;
 	justify-content: center;
 	width: 100vw;
-	height: 100vh;
-	background-image: url('/small-sandie-clarke-q13Zq1Jufks-unsplash.jpg');
-	background-size: 100em;
+	height: 100%;
+	/* background-image: url('/small-sandie-clarke-q13Zq1Jufks-unsplash.jpg'); */
+	background-size: cover;
 }
 
 #contactContainer {
@@ -16,7 +16,7 @@
 	max-width: 50vw;
 	padding: 3em;
 	margin: 3em;
-	background-color: whitesmoke;
+	/* background-color: whitesmoke; */
 }
 
 #contactForm {
