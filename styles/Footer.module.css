@@ -3,11 +3,12 @@
 	height: 10vh;
 	background-color: rebeccapurple;
 	position: relative;
-	margin: 4em 4em 0em 4em;
+	margin-top: 4em;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
+	padding-top: 2vh;
 }
 .footer > p {
 	color: whitesmoke;

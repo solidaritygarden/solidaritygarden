@@ -22,7 +22,7 @@
 	padding-bottom: 0em;
 	margin-top: 25vh;
 }
-#content {
+.content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -31,6 +31,7 @@
 	margin: 4em;
 	margin-bottom: 0em;
 	padding-bottom: 0em;
+	scroll-margin-top: 17em;
 }
 
 /* @media (min-width: 768px) {

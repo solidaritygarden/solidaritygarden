@@ -10,7 +10,9 @@ export default function Layout({ siteDescription, siteTitle, children }) {
 			<Meta siteTitle={siteTitle} siteDescription={siteDescription} />
 			<Header />
 			<div id={styles.contentBackground}>
-				<div id={styles.content}>{children}</div>
+				<div className={styles.content} id="top">
+					{children}
+				</div>
 				<Footer />
 			</div>
 		</section>
