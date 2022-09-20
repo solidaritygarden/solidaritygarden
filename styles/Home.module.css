@@ -19,7 +19,7 @@
 	margin-top: 0.5em;
 	/* align-self: flex-start; */
 	text-align: center;
-	z-index: 2;
+	z-index: 1;
 }
 
 .layout {
