@@ -1,3 +1,11 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	align-items: center;
+	width: 100%;
+}
+
 .landingCardSection {
 	display: flex;
 	flex-direction: row;
@@ -23,15 +31,6 @@
 	font-family: 'Nanum Pen Script';
 	font-size: x-large;
 }
-
-.cardTitles {
-	text-transform: uppercase;
-	font-weight: bolder;
-	margin-top: 0.5em;
-	text-align: center;
-	z-index: 1;
-}
-
 .imageWrapper {
 	display: flex;
 	flex-direction: column;
@@ -40,141 +39,10 @@
 	max-height: 40vh;
 }
 
-.content {
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	padding: 2em;
-	align-items: center;
-	width: 100%;
-}
-
-.title {
-	margin-left: 1em;
-}
-
-.explainer {
-	margin-left: 4em;
-	margin-right: 4em;
-}
-
-#solidaritySection {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 2em;
-}
-#landExplainer {
-	flex-direction: row-reverse;
-	max-width: 40%;
-	justify-content: space-around;
-}
-
-#climateSection {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-around;
-	margin: 2em;
-}
-#climateExplainer {
-	flex-direction: column;
-	max-width: 40%;
-}
-
-#waysSection {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-#landback {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border-top: solid lightgrey;
-	border-bottom: solid lightgrey;
-	padding-top: 3em;
-	padding-bottom: 3em;
-	margin-top: 3em;
-	margin-bottom: 3em;
-	max-width: 50em;
-}
-
-#mutualAidSection {
-	display: flex;
-	flex-direction: column;
-	border-top: solid lightgrey;
-	margin-top: 3em;
-	padding-top: 3em;
-	max-width: 60em;
-}
-#mutualAidInnerSection {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-}
-#mutualAidSection > h3 {
-	align-self: center;
-}
-.landBackPicture {
-	display: flex;
-	flex-direction: column;
-	background-color: aquamarine;
-	min-height: 20em;
-	min-width: 20em;
-	margin-left: 10em;
-}
-#waysCardSection {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.waysCard {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	max-width: 35%;
-	min-height: 20em;
-	margin: 1em;
-	padding: 1em;
-	background-color: bisque;
-}
-.waysCard > h3 {
-	margin: 0;
-}
-.waysCard > p {
-	margin: 0;
-}
-.content {
-	flex-grow: 1;
-}
-
-.title {
-	margin-left: 1em;
-}
-
-.subtitle {
-	margin-left: 2em;
-	font-size: x-large;
-	z-index: 2;
-}
-
-.explainer {
-	margin-left: 4em;
-	margin-right: 4em;
-}
-
-.supportSection {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-.center {
-	margin: 0;
-	margin-top: 2em;
-	margin-bottom: 2em;
+.cardTitles {
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-top: 0.5em;
+	text-align: center;
+	z-index: 1;
 }
