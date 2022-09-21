@@ -2,8 +2,15 @@ import React from 'react';
 import Link from 'next/link';
 // import Image from 'next/image';
 import styles from '../../styles/Header.module.css';
+import { useRouter } from 'next/router';
+import HomeLink from './HomeLink';
+// import propTypes from 'prop-types';
 
 export default function Header() {
+	const router = useRouter();
+	console.log('this is router', router);
+	console.log('this is router.pathname', router.pathname);
+
 	return (
 		<nav className={styles.header}>
 			<figure className={styles.imageWrapper}>
@@ -29,6 +36,7 @@ export default function Header() {
 			</div>
 			<span id={styles.scrim}></span>
 			<div className={styles.nav}>
+				<HomeLink />
 				<Link href="/how">How It Works</Link>
 				<Link href="/support">Support</Link>
 				<Link href="/about">About</Link>
