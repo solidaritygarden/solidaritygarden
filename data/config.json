@@ -1,4 +1,12 @@
 {
 	"title": "Solidarity Garden",
-	"description": "Because lawn sucks & solidarity is everything."
+	"description": "Because lawn sucks & solidarity is everything.",
+	"support_title": "Support Us",
+	"site_description": "Ways to support our work",
+	"how_title": "How It Works",
+	"how_description": "Step by step explainer for the solidarity garden process works",
+	"contact_title": "Contact Us",
+	"contact_description": "Ways to get in touch with us",
+	"about_title": "About Us",
+	"about_description": "An in-depth look at what we're about"
 }

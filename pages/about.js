@@ -3,9 +3,9 @@ import Layout from './components/Layout';
 import styles from '../styles/About.module.css';
 import Image from 'next/image';
 
-const Home = ({ title, description }) => {
+const About = ({ about_title, about_description }) => {
 	return (
-		<Layout siteTitle={title} siteDescription={description}>
+		<Layout siteTitle={about_title} siteDescription={about_description}>
 			<div className={styles.content}>
 				<section>
 					<h2 className={styles.title}>What We're About</h2>
@@ -117,19 +117,19 @@ const Home = ({ title, description }) => {
 	);
 };
 
-export default Home;
+export default About;
 
 export async function getStaticProps() {
 	const siteConfig = await import(`../data/config.json`);
 	return {
 		props: {
-			title: siteConfig.default.title,
-			description: siteConfig.default.description,
+			about_title: siteConfig.default.about_title,
+			about_description: siteConfig.default.about_description,
 		}, // will be passed to the page component as props
 	};
 }
 
-Home.propTypes = {
-	title: PropTypes.string,
-	description: PropTypes.string,
+About.propTypes = {
+	about_title: PropTypes.string,
+	about_description: PropTypes.string,
 };
