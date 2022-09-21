@@ -56,11 +56,6 @@ const Home = ({ title, description }) => {
 				<section id={styles.mutualAidSection}>
 					<h2 className={styles.title}>What is Mutual Aid?</h2>
 					<div id={styles.mutualAidInnerSection}>
-						{/* <p className={styles.explainer}>
-						Subway tile air plant bespoke fashion axe, before they sold out cliche sustainable twee retro fanny pack
-						deep v umami. Kitsch cray artisan hot chicken franzen tumblr. Photo booth schlitz chartreuse mlkshk. Etsy
-						hammock XOXO, lyft salvia knausgaard keytar yr next level austin hot chicken small batch.
-					</p> */}
 						<p>
 							Live-edge hammock fam banh mi banjo, kickstarter forage fit succulents. Organic marfa affogato four loko
 							thundercats deep v tousled. Sus same craft beer viral freegan jean shorts. Trust fund typewriter you

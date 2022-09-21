@@ -21,7 +21,6 @@ body {
 }
 a {
 	text-decoration: none;
-	/* color: inherit; */
 	transition: opacity 0.2s ease;
 }
 a:hover {
@@ -153,7 +152,6 @@ p {
 	padding-right: 0;
 	padding-top: 0;
 	margin-bottom: 1.45rem;
-	/* color: inherit; */
 	text-rendering: optimizeLegibility;
 }
 
@@ -183,15 +181,12 @@ h3 {
 	font-size: 1.2rem;
 	letter-spacing: -0.5px;
 	line-height: 1.1875;
-	/* color: #a0a0a0; */
-	/* font-weight: normal; */
 }
 
 p {
 	font-size: 1.2rem;
 	letter-spacing: -0.5px;
 	line-height: 1.5;
-	/* color: #464646; */
 }
 
 /* @media (min-width: 1280px) {

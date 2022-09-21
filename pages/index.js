@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import Layout from './components/Layout';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
-// import Image from 'next/image';
 
 const Home = ({ title, description }) => {
 	return (
@@ -17,9 +16,6 @@ const Home = ({ title, description }) => {
 								height={500}
 								layout="responsive"
 							/>
-							{/* <figcaption>
-								Hands, wearing garden gloves pulls a green leafy vegetable from a raised bed garden.
-							</figcaption> */}
 						</figure>
 						<h3 className={styles.cardTitles}>share your lawn and grow food for you and your neighbors</h3>
 					</div>
@@ -31,7 +27,6 @@ const Home = ({ title, description }) => {
 								height={100}
 								layout="responsive"
 							/>
-							{/* <figcaption></figcaption> */}
 						</figure>
 						<h3 className={styles.cardTitles}>build local food security</h3>
 					</div>

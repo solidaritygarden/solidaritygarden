@@ -12,13 +12,10 @@
 }
 .footer > p {
 	color: whitesmoke;
-	/* text-align: center; */
 }
 .imageWrapper {
 	display: flex;
 	justify-content: stretch;
-	/* margin: 1em; */
-	/* background-color: teal; */
 	width: 2vw;
 	height: 4vh;
 }

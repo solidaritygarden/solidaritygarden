@@ -14,7 +14,6 @@ export default function Footer() {
 				<figure className={styles.imageWrapper}>
 					<div style={{ height: '2vh', width: '2vw', position: 'relative' }}>
 						<Image src="/GitHub-Mark-Light-120px-plus.png" width={100} height={100} layout="responsive" />
-						{/* <figcaption></figcaption> */}
 					</div>
 				</figure>
 			</Link>
@@ -22,7 +21,6 @@ export default function Footer() {
 				<figure className={styles.imageWrapper}>
 					<div style={{ height: '2vh', width: '2vw', position: 'relative' }}>
 						<Image src="/Twitter social icons - circle - white.png" width={100} height={100} layout="responsive" />
-						{/* <figcaption></figcaption> */}
 					</div>
 				</figure>
 			</Link>

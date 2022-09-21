@@ -1,4 +1,3 @@
-// import Link from 'next/link';
 import Layout from './components/Layout';
 import styles from '../styles/How.module.css';
 
@@ -56,9 +55,6 @@ export default function How() {
 					</p>
 				</div>
 			</div>
-			{/* <div>
-				Back to <Link href="/">Home</Link>
-			</div> */}
 		</Layout>
 	);
 }

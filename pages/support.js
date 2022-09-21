@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Support() {
 	return (
-		<Layout siteTitle={"Support Us"} siteDescription={'Ways to support out work.'}>
+		<Layout siteTitle={'Support Us'} siteDescription={'Ways to support out work.'}>
 			<div id={styles.supportContainer}>
 				<div className={styles.supportSection}>
 					<h2 className={styles.title}>Ways to Get Involved</h2>
@@ -27,7 +27,6 @@ export default function Support() {
 					</div>
 					<figure>
 						<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
-						{/* <figcaption></figcaption> */}
 					</figure>
 				</div>
 				{/* Labor Section */}
@@ -42,7 +41,6 @@ export default function Support() {
 					</div>
 					<figure>
 						<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
-						{/* <figcaption></figcaption> */}
 					</figure>
 				</div>
 				{/* Money section */}
@@ -61,23 +59,18 @@ export default function Support() {
 							<p>Calendar</p>
 							<figure>
 								<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="300vw" />
-								{/* <figcaption></figcaption> */}
 							</figure>
 						</div>
 						<div>
 							<p>Seed Bombs</p>
 							<figure>
 								<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="300vw" />
-
-								{/* <figcaption></figcaption> */}
 							</figure>
 						</div>
 						<div>
 							<p>Seed Starter Packs</p>
 							<figure>
 								<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="300vw" />
-
-								{/* <figcaption></figcaption> */}
 							</figure>
 						</div>
 						<div>

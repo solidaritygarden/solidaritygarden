@@ -6,7 +6,6 @@
 	height: 110%;
 	background-image: url(/avinash-kumar-soil-vertical-unsplash.jpg);
 	background-size: cover;
-	/* background-color: aqua; */
 }
 
 #contactContainer {
@@ -23,19 +22,15 @@
 #contactForm {
 	display: flex;
 	flex-direction: column;
-
 	width: 100%;
-	/* background-color: green; */
 }
 
 .input {
 	display: flex;
 	justify-content: space-between;
 	margin: 1em;
-	/* background-color: teal; */
 }
 .input > input {
-	/* background-color: blueviolet; */
 	min-width: 50px;
 	max-width: 300px;
 }
