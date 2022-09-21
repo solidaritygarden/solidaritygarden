@@ -1,46 +1,43 @@
-#landingCardSection {
+.landingCardSection {
 	display: flex;
 	flex-direction: row;
 	padding: 0.5em;
-	background-color: lightgray;
+	background-color: lavender;
 }
 
 .landingCard {
 	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
-	background-color: lavender;
+	flex-direction: column;
+	justify-content: space-between;
+	justify-items: center;
+	background-color: whitesmoke;
 	padding: 1em;
 	margin: 1em;
 	min-width: 30%;
 }
 
 .landingCard > h3 {
+	margin-top: 1em;
+	text-align: center;
+	z-index: 1;
+	font-family: 'Nanum Pen Script';
+	font-size: x-large;
+}
+
+.cardTitles {
+	text-transform: uppercase;
+	font-weight: bolder;
 	margin-top: 0.5em;
-	/* align-self: flex-start; */
 	text-align: center;
 	z-index: 1;
 }
 
-.layout {
-	/* overflow-x: hidden; */
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-}
-
 .imageWrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	width: 100%;
-	/* z-index: 1; */
-}
-
-.image {
-	/* object-fit: contain;
-	width: 100%!;
-	position: relative !important;
-	height: unset !important; */
+	margin: 0;
+	max-height: 40vh;
 }
 
 .content {
