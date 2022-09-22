@@ -8,50 +8,39 @@ export default function How() {
 			siteDescription={'Step by step explainer for the solidarity garden process works'}
 		>
 			<div className={styles.content}>
-				<div>
-					<h2 className={styles.aboutTitle}>How It Works</h2>
-					<p className={styles.explainer}>
-						I'm baby gochujang typewriter hashtag ethical, post-ironic pour-over tacos irony chambray coloring book man
-						braid waistcoat sartorial. Pitchfork hella offal, sustainable tonx literally subway tile shaman twee vinyl.
-						Big mood iPhone asymmetrical la croix chambray pitchfork. Retro whatever narwhal actually hexagon meh copper
-						mug asymmetrical lumbersexual polaroid vegan four loko cloud bread lyft kogi.
-					</p>
+				<div className={styles.titleSection}>
+					<h2 className={styles.title}>How It Works</h2>
+					<p>(We're new and figuring this out, so expect changes!)</p>
 				</div>
 				<div>
 					<h3 className={styles.subtitle}>Pre-season</h3>
 					<p className={styles.explainer}>
-						Whatever taxidermy raw denim franzen etsy. Deep v lyft pitchfork yr, gochujang palo santo narwhal venmo
-						selvage butcher small batch fingerstache. Forage echo park cardigan coloring book freegan glossier gochujang
-						palo santo 3 wolf moon. Vice direct trade knausgaard portland pabst, bicycle rights jean shorts yuccie
-						slow-carb synth vape beard.
+						Through these winter months we're getting new people onboarded, finding new plots that people are willing to
+						share, and getting supplies ready for the spring. If you're sharing land, we can figure out how much
+						vegetable space you're able to offer and make plans for planting, and decide what percentage of the harvest
+						you want to keep and what you'd like to share. There will likely be some community building events or skill
+						shares too!
 					</p>
 				</div>
 				<div>
 					<h3 className={styles.subtitle}>Growing Season</h3>
 					<p className={styles.explainer}>
-						Schlitz hell of tofu iceland pitchfork. Listicle roof party fit, subway tile chambray vaporware celiac
-						knausgaard. Street art snackwave meditation austin, mukbang unicorn small batch banh mi direct trade. Next
-						level actually fashion axe you probably haven't heard of them, raw denim wolf snackwave.
+						This will look different depending on how you're participating. If you're sharing land (thank you!), there's
+						nothing more you need to do unless you want to. In the early season we will help convert all or a portion of
+						the yard that gets full sun to vegetable growing space and prepare other parts of the yard (as desired) for
+						moving away from grass lawns.
+					</p>
+					<p className={styles.explainer}>
+						If you're a garden volunteer (thank you!), you'll be helping convert lawns for planting and generally just
+						getting your hands dirty.
 					</p>
 				</div>
 				<div>
-					<h3 className={styles.subtitle}>Harvest</h3>
+					<h3 className={styles.subtitle}>Post-Growing Season</h3>
 					<p className={styles.explainer}>
-						Meh cornhole 8-bit, kogi pitchfork biodiesel unicorn plaid vegan fashion axe aesthetic mixtape try-hard tote
-						bag salvia. Skateboard gatekeep keffiyeh XOXO air plant before they sold out yes plz, street art distillery
-						swag squid austin meggings. Stumptown tumeric tattooed disrupt. Photo booth man bun tbh, disrupt blog
-						everyday carry intelligentsia XOXO. Organic thundercats tilde same, chartreuse mustache mixtape bruh photo
-						booth meh blue bottle narwhal. Irony artisan mumblecore cray, pop-up palo santo literally twee raclette
-						fanny pack DIY chicharrones vinyl.
-					</p>
-				</div>
-				<div>
-					<h3 className={styles.subtitle}>Moving On</h3>
-					<p className={styles.explainer}>
-						Yuccie ascot praxis la croix gluten-free cliche iPhone twee plaid. IPhone pop-up air plant master cleanse,
-						pok pok artisan tacos shoreditch coloring book lumbersexual raw denim bodega boys helvetica wolf lo-fi.
-						Austin XOXO waistcoat chartreuse flexitarian narwhal helvetica hashtag, twee cloud bread thundercats.
-						Bitters hammock af actually.
+						At the end of the growing season, we'll get everything ready for winter. If you're sharing your land again
+						the next year, we'll prepare your bed for spring planting. If you're moving on, we'll plant seed for a
+						low-maintenance, climate friendly lawn-alternative.
 					</p>
 				</div>
 			</div>
