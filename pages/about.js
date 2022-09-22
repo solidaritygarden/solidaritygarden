@@ -13,105 +13,72 @@ const About = ({ about_title, about_description }) => {
 						<div id={styles.solidarityExplainer}>
 							<h3 className={styles.subtitle}>Solidarity</h3>
 							<p className={styles.explainer}>
-								I'm baby pBR&B forage bespoke small batch aesthetic sriracha, yes plz 90's godard salvia williamsburg
-								roof party irony tacos letterpress. Everyday carry chartreuse bespoke, vexillologist jean shorts cronut
-								butcher DSA yr man braid viral vinyl. IPhone cold-pressed jean shorts umami, XOXO art party hella occupy
-								succulents cray coloring book keytar godard everyday carry plaid. Everyday carry umami pinterest hoodie
-								JOMO dreamcatcher. DIY asymmetrical air plant godard franzen austin tbh neutra. Waistcoat banjo freegan
-								flexitarian drinking vinegar slow-carb pitchfork. Chambray vexillologist fingerstache humblebrag cronut.
+								For us, solidarity is the name of the game.Solidarity isn't charity. It means showing up for your
+								community. Things can seem very uncertain in a lot of ways these days, and it often feels like those in
+								charge have left us out to dry, but by building solid bonds with your neighbors--in our case, through
+								food security--we can build strong and resilient communities that we can feel safer in given an
+								uncertain future.
 							</p>
 						</div>
-						<figure>
-							<Image src="/small-joel-muniz-MA-food-distro-unsplash.jpg" height="200vh" width="500vw" />
-							<figcaption></figcaption>
-						</figure>
+						<div>
+							<figure className={styles.aboutImage}>
+								<Image src="/small-joel-muniz-MA-food-distro-unsplash.jpg" height="300vh" width="400vw" />
+							</figure>
+							<div className={styles.colorChunk} />
+						</div>
 					</div>
 					<div id={styles.climateSection}>
 						<div id={styles.climateExplainer}>
 							<h3 className={styles.subtitle}>Climate Justice</h3>
 							<p className={styles.explainer}>
-								Tofu chicharrones hexagon fingerstache occupy. Whatever portland direct trade pork belly meggings.
-								Kickstarter hammock chambray marfa hella PBR&B. Vibecession yr 3 wolf moon sustainable, williamsburg
-								everyday carry schlitz. Raclette microdosing iceland mustache. Poutine four loko food truck, vape
-								glossier flexitarian cloud bread umami hella cardigan readymade affogato banh mi biodiesel.
+								The climate crisis is here; there's no denying it anymore. As it's effects are currently and have always
+								affected marginalized communities disproportionately more, it is important to center those communities
+								in our struggle toward climate resilience. While we cannot promise that we won't mess up, we try and
+								guide our decisions with climate justice in mind.
 							</p>
 						</div>
-						<figure>
-							<Image src="/small-markus-spiske-climate-justice-protest-unsplash.jpg" height="200vh" width="500vw" />
-							<figcaption></figcaption>
-						</figure>
-					</div>
-					<div>
-						<h3 className={styles.subtitle}>Food Security</h3>
-						<p className={styles.explainer}>
-							Pickled tacos narwhal la croix subway tile snackwave synth hot chicken hoodie. Praxis tbh tattooed ascot
-							green juice chillwave marfa chicharrones. Sartorial scenester lumbersexual, bodega boys tattooed normcore
-							coloring book snackwave pork belly roof party kitsch. Cliche gatekeep small batch, cornhole bruh mukbang
-							microdosing +1 lyft jianbing art party pork belly vaporware. Tumblr paleo skateboard celiac shoreditch DIY
-							activated charcoal tote bag trust fund JOMO. Yuccie iPhone synth knausgaard shoreditch mlkshk crucifix
-							wayfarers.
-						</p>
-					</div>
-				</section>
-				<section id={styles.mutualAidSection}>
-					<h2 className={styles.title}>What is Mutual Aid?</h2>
-					<div id={styles.mutualAidInnerSection}>
-						<p>
-							Live-edge hammock fam banh mi banjo, kickstarter forage fit succulents. Organic marfa affogato four loko
-							thundercats deep v tousled. Sus same craft beer viral freegan jean shorts. Trust fund typewriter you
-							probably haven't heard of them quinoa. Polaroid organic helvetica, raw denim kickstarter tumblr
-							shoreditch. Af leggings fixie, hella typewriter cred slow-carb before they sold out single-origin coffee
-							dreamcatcher beard pop-up gastropub selvage.
-						</p>
-						<div className={styles.landBackPicture}>
-							<h3 className={styles.subtitle}>Solidarity Not Charity</h3>
-							<figure>
-								<Image src="/Grow_it_yourself_Solidarity_edit.jpg" height="200vh" width="500vw" />
-								<figcaption></figcaption>
+						<div>
+							<figure className={styles.aboutImage}>
+								<Image src="/small-markus-spiske-climate-justice-protest-unsplash.jpg" height="300vh" width="400vw" />
 							</figure>
+							<div className={styles.colorChunkLeft} />
+						</div>
+					</div>
+					<div id={styles.foodSecuritySection}>
+						<div id={styles.foodSecurityExplainer}>
+							<h3 className={styles.subtitle}>Food Security</h3>
+							<p className={styles.explainer}>
+								These concepts come together under food security. Many people in our community experience food
+								insecurity. This, unfortunately, is only set to increase as climate events destroy harvests and change
+								the way we grow our food. We strive to build strong food networks locally so we aren't as reliant on
+								food imported from other regions.
+							</p>
+						</div>
+						<div>
+							<figure className={styles.aboutImage}>
+								<Image src="/Grow_it_yourself_Solidarity_edit.jpg" height="300vh" width="400vw" />
+							</figure>
+							<div className={styles.colorChunk} />
 						</div>
 					</div>
 				</section>
-				<section id={styles.landback}>
+				<div className={styles.lineBreak} />
+				<div id={styles.landback}>
 					<h3 className={styles.subtitle}>Land Back</h3>
-					<div className={styles.center}>
+					<div className={styles.landBackImage}>
 						<figure>
-							<Image src="/small-joanna-kozik-west-landscape-unsplash.jpg" height="200vh" width="500vw" />
-							<figcaption></figcaption>
+							<Image src="/small-joanna-kozik-west-landscape-unsplash.jpg" height="300vh" width="500vw" />
 						</figure>
 					</div>
-					<p className={styles.explainer}>
-						3 wolf moon farm-to-table kinfolk twee. Hella cornhole art party vibecession edison bulb viral locavore XOXO
-						jean shorts air plant vegan gochujang. Neutra art party four loko tonx cray cardigan, lyft waistcoat
-						gastropub church-key. Fam portland try-hard ethical bodega boys hexagon flexitarian shaman microdosing
-						jianbing beard selvage twee. Narwhal yes plz trust fund neutra flexitarian activated charcoal affogato big
-						mood dreamcatcher post-ironic meggings 8-bit. Hashtag hell of marfa williamsburg, sustainable YOLO four
-						dollar toast asymmetrical.
+					<p className={styles.landBackExplainer}>
+						Something that is one of the guiding principles of our work is understanding that this land we are living on
+						was stolen from the indigenous tribes that lived here long before the so-called "United States of America"
+						was formed. It is important to understand that this colonial project isn't "finished" and land is currently
+						being taken from tribal soverignty as the government sees fit to go back on treaties that have existed for
+						over a century or more. We invite participants to examine what "land ownership" means on land that was
+						stolen and how that incorporates into building solidarity and food security with your community.{' '}
 					</p>
-				</section>
-
-				<section id={styles.waysSection}>
-					<h2 className={styles.title}>Ways to Get Involved</h2>
-					<div id={styles.waysCardSection}>
-						<div className={styles.waysCard}>
-							<h3 className={styles.subtitle}>Donor</h3>
-							<p className={styles.explainer}>
-								Schlitz activated charcoal drinking vinegar banh mi, crucifix pop-up ennui quinoa readymade fam pug kogi
-								chicharrones irony vaporware. Shabby chic distillery green juice tumblr, mixtape banh mi hashtag
-								sustainable subway tile farm-to-table freegan. Taiyaki helvetica lumbersexual, beard woke four dollar
-								toast keffiyeh.
-							</p>
-						</div>
-						<div className={styles.waysCard}>
-							<h3 className={styles.subtitle}>Hands-on Participant</h3>
-							<p className={styles.explainer}>
-								Roof party tumblr ugh pickled waistcoat taiyaki ennui retro marfa snackwave austin typewriter
-								kickstarter four dollar toast. Shaman thundercats try-hard ugh, woke literally cornhole mlkshk
-								knausgaard edison bulb normcore. Taiyaki gentrify readymade, tousled tote bag offal lo-fi typewriter.
-							</p>
-						</div>
-					</div>
-				</section>
+				</div>
 			</div>
 		</Layout>
 	);
