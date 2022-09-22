@@ -22,7 +22,7 @@ const About = ({ about_title, about_description }) => {
 							</p>
 						</div>
 						<figure>
-							<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+							<Image src="/small-joel-muniz-MA-food-distro-unsplash.jpg" height="200vh" width="500vw" />
 							<figcaption></figcaption>
 						</figure>
 					</div>
@@ -37,7 +37,7 @@ const About = ({ about_title, about_description }) => {
 							</p>
 						</div>
 						<figure>
-							<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
+							<Image src="/small-markus-spiske-climate-justice-protest-unsplash.jpg" height="200vh" width="500vw" />
 							<figcaption></figcaption>
 						</figure>
 					</div>
@@ -66,7 +66,7 @@ const About = ({ about_title, about_description }) => {
 						<div className={styles.landBackPicture}>
 							<h3 className={styles.subtitle}>Solidarity Not Charity</h3>
 							<figure>
-								<Image src="/small-joel-muniz-3k3l2brxmwQ-unsplash.jpg" height="200vh" width="500vw" />
+								<Image src="/Grow_it_yourself_Solidarity_edit.jpg" height="200vh" width="500vw" />
 								<figcaption></figcaption>
 							</figure>
 						</div>
@@ -76,7 +76,7 @@ const About = ({ about_title, about_description }) => {
 					<h3 className={styles.subtitle}>Land Back</h3>
 					<div className={styles.center}>
 						<figure>
-							<Image src="/small-joanna-kozik-yht4AxGHS8Y-unsplash.jpg" height="200vh" width="500vw" />
+							<Image src="/small-joanna-kozik-west-landscape-unsplash.jpg" height="200vh" width="500vw" />
 							<figcaption></figcaption>
 						</figure>
 					</div>
