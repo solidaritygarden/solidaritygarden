@@ -11,8 +11,8 @@ export default function Support() {
 				<div className={styles.supportSection}>
 					<h2 className={styles.title}>Ways to Get Involved</h2>
 					<p className={styles.explainer}>
-						The best way to support us is the way that suits you the best! Not everyone is able to donate, not everyone
-						is able to be hands on, but everyone is able to participate!
+						The best way to support us is the way that suits you the best! Not everyone is able to share their land or
+						donate, not everyone is able to be hands on, but everyone is able to participate!
 					</p>
 				</div>
 				{/* Land Section */}
@@ -20,14 +20,17 @@ export default function Support() {
 					<div id={styles.landExplainer}>
 						<h3 className={styles.subtitle}>Land</h3>
 						<p className={styles.explainer}>
-							One of the most important ways to get involved and show your solidarity is to make the commitment to
-							donate your land. This can be for one season or several, but this project will not work without folks
-							offering up their lawns for community food production.
+							One of the most important ways to get involved and show your solidarity is to make the commitment to share
+							your land. This can be for one season or several, but this project will not work without folks offering up
+							their lawns for community food production.
 						</p>
 					</div>
-					<figure>
-						<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
-					</figure>
+					<div>
+						<figure className={styles.supportImage}>
+							<Image src="/i-do-nothing-but-love-yard-unsplash.jpg" height="300vh" width="400vw" />
+						</figure>
+						<div className={styles.colorChunk} />
+					</div>
 				</div>
 				{/* Labor Section */}
 				<div id={styles.laborSection}>
@@ -39,9 +42,10 @@ export default function Support() {
 							with behind the scenes with admin or agitprop.
 						</p>
 					</div>
-					<figure>
-						<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="500vw" />
+					<figure className={styles.supportImageLeft}>
+						<Image src="/jonathan-kemper-gloves-unsplash.jpg" height="300vh" width="400vw" />
 					</figure>
+					<div className={styles.colorChunkLeft} />
 				</div>
 				{/* Money section */}
 				<div id={styles.moneySection}>
@@ -55,27 +59,28 @@ export default function Support() {
 						</p>
 					</div>
 					<div id={styles.imageSection}>
-						<div>
+						<div className={styles.supportCard}>
 							<p>Calendar</p>
 							<figure>
-								<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="300vw" />
+								<Image src="/maddi-bazzocco-calendar-unsplash.jpg" height="200vh" width="300vw" />
 							</figure>
 						</div>
-						<div>
+						<div className={styles.supportCard}>
 							<p>Seed Bombs</p>
 							<figure>
-								<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="300vw" />
+								<Image src="/small-jonathan-kemper-seed-bomb-close-unsplash.jpg" height="200vh" width="300vw" />
 							</figure>
 						</div>
-						<div>
+						<div className={styles.supportCard}>
 							<p>Seed Starter Packs</p>
 							<figure>
-								<Image src="/jonathan-hanna-hvSBya7hX2Q-unsplash.jpg" height="200vh" width="300vw" />
+								<Image src="/small-eco-warrior-princess-seed-packets-unsplash.jpg" height="200vh" width="300vw" />
 							</figure>
 						</div>
-						<div>
+						<div className={styles.supportCard}>
+							<p>Open Collective</p>
 							<Link href="">
-								<p>Open Collective</p>
+								<Image src="/OpenCollective.jpeg" height="200vh" width="200vw" />
 							</Link>
 						</div>
 					</div>
