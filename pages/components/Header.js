@@ -10,7 +10,7 @@ export default function Header() {
 				<Link href="/">
 					<a className={styles.title}>Solidarity Garden</a>
 				</Link>
-				<p className={styles.subtitle}>because lawns suck and solidarity is everything</p>
+				<p className={styles.subtitle}>because lawns suck & solidarity is everything</p>
 			</div>
 			<span id={styles.scrim}></span>
 			<div className={styles.nav}>

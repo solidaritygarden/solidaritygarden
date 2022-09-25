@@ -83,7 +83,7 @@
 .subtitle {
 	font-size: 20pt;
 	z-index: 1;
-	color: rebeccapurple;
+	color: #6667ab;
 }
 
 .explainer {
@@ -100,7 +100,7 @@
 	margin-top: 4em;
 }
 .colorChunk {
-	background-color: rebeccapurple;
+	background-color: #6667ab;
 	height: 40vh;
 	width: 30vw;
 	z-index: 1;
@@ -108,7 +108,7 @@
 	margin-left: -4em;
 }
 .colorChunkLeft {
-	background-color: rebeccapurple;
+	background-color: #6667ab;
 	height: 40vh;
 	width: 30vw;
 	z-index: 1;

@@ -10,7 +10,7 @@
 	display: flex;
 	flex-direction: row;
 	padding: 0.5em;
-	background-color: lavender;
+	background-color: #6667ab;
 }
 
 .landingCard {
@@ -22,6 +22,7 @@
 	padding: 1em;
 	margin: 1em;
 	min-width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .landingCard > h3 {
@@ -45,4 +46,34 @@
 	margin-top: 0.5em;
 	text-align: center;
 	z-index: 1;
+}
+
+.bulletPoints {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3em;
+}
+
+.point {
+	margin: 0em;
+	padding: 0em;
+}
+
+.point > h3 {
+	font-size: 17pt;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #6667ab;
+	margin: 0;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+.bulletPoints h3:first {
+	margin-top: 0em;
+	color: orange;
+}
+.point > p {
+	margin: 0;
+	margin-left: 1.25em;
 }

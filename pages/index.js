@@ -43,24 +43,24 @@ const Home = ({ title, description }) => {
 						<h3 className={styles.cardTitles}>ditch your lawn for a sustainable option</h3>
 					</div>
 				</section>
-				<section id="bulletPoint" className={styles.bulletPoints}>
-					<div id="growLocalFood" className={styles.resilient}>
-						<h3>Growing food locally creates more resilient communities.</h3>
+				<section id="bulletPoints" className={styles.bulletPoints}>
+					<div id="growLocalFood" className={styles.point}>
+						<h3>* Growing food locally creates more resilient communities.</h3>
 						<p>
 							Our main goal is to grow food resiliency for our community, starting with those experiencing food
 							insecurity.
 						</p>
 					</div>
-					<div id="noMoreGrassLawns">
-						<h3>Traditional grass lawns increase urban temps and are resource intensive</h3>
+					<div id="noMoreGrassLawns" className={styles.point}>
+						<h3>* Traditional grass lawns increase urban temps and are resource intensive</h3>
 						<p>
 							Even if you don't want to grow food on your property, changing your lawn to a drought-tolerant,
 							low-growing, grass alternative like clover, or a native wildflower mix helps native pollinator populations
 							and helps ensure those neighbors who are growing veggies have abundant harvests.
 						</p>
 					</div>
-					<div id="solidarityIsEverything">
-						<h3>Solidarity is Everything</h3>
+					<div id="solidarityIsEverything" className={styles.point}>
+						<h3>* Solidarity is Everything</h3>
 						<p>
 							There are many ways to get involved with solidarity gardens even if you can't share your yard. We need
 							gardeners, designers, evangelists, artists, and donors. If you have a different way you'd like to show

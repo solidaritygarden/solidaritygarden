@@ -57,7 +57,7 @@
 	align-items: center;
 	justify-content: space-between;
 	margin: 1em;
-	background-color: rgba(239, 239, 240, 0.9);
+	background-color: rgba(240, 241, 236, 0.9);
 	padding: 1em;
 	padding-bottom: 0em;
 }
@@ -75,7 +75,7 @@
 }
 
 .colorChunk {
-	background-color: rebeccapurple;
+	background-color: #6667ab;
 	width: 30vw;
 	height: 40vh;
 	z-index: 1;
@@ -83,7 +83,7 @@
 	margin-bottom: 2em;
 }
 .colorChunkLeft {
-	background-color: rebeccapurple;
+	background-color: #6667ab;
 	width: 30vw;
 	height: 40vh;
 	z-index: 1;
@@ -113,7 +113,7 @@
 .subtitle {
 	font-size: x-large;
 	z-index: 2;
-	color: rebeccapurple;
+	color: #6667ab;
 	font-weight: bolder;
 	text-decoration: underline;
 	font-size: 22pt;
