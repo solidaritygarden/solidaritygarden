@@ -1,28 +1,35 @@
-#contactBackground {
+.content {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
-	justify-content: center;
-	width: 100vw;
-	height: 110%;
-	background-image: url(/avinash-kumar-soil-vertical-unsplash.jpg);
-	background-size: cover;
+	/* height: 50vh; */
+	min-width: 100%;
 }
 
-#contactContainer {
+.contactContainer {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-items: center;
-	width: fit-content;
-	padding: 3em;
-	margin: 3em;
+	align-self: center;
+	margin: 2em;
+	margin-top: 1em;
+	padding: 2em;
 	background-color: rgba(239, 239, 240, 0.8);
 }
 
-#contactForm {
+.contactForm {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	width: 100%;
+}
+
+.title {
+	text-align: center;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-top: 1em;
 }
 
 .input {
@@ -30,15 +37,51 @@
 	justify-content: space-between;
 	margin: 1em;
 }
-.input > input {
-	min-width: 50px;
-	max-width: 300px;
+.inputComment {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
-#contactButton {
+.inputComment > input {
+	margin-top: 1em;
+	height: 5em;
+}
+.input > input {
+	min-width: 20em;
+	max-width: 10em;
+}
+
+.fill {
+	height: min-content;
+}
+
+.methodRadioSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.methodRadios {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 75%;
+}
+.radio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contactButton {
 	background-color: #6667ab;
 	border-radius: 5px;
 	color: whitesmoke;
-	max-width: 5em;
-	align-self: center;
+	width: 5em;
+	margin-top: 3em;
+	margin-left: 45%;
+	margin-right: 50%;
 }

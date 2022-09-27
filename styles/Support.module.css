@@ -60,6 +60,7 @@
 	background-color: rgba(240, 241, 236, 0.9);
 	padding: 1em;
 	padding-bottom: 0em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .supportCard > p {

@@ -51,8 +51,29 @@ const Home = ({ title, description }) => {
 							insecurity.
 						</p>
 					</div>
-					<div id="noMoreGrassLawns" className={styles.point}>
-						<h3>* Traditional grass lawns increase urban temps and are resource intensive</h3>
+					<div id="noMoreGrassLawns" className={styles.noMoreGrassLawns}>
+						<div
+							style={{
+								display: 'flex',
+								flexDirection: 'column',
+								backgroundColor: 'teal',
+								contain: 'content',
+								padding: '2em',
+							}}
+						>
+							<h3 id={styles.grassImageText}>
+								* Traditional grass lawns increase urban temps and are resource intensive
+							</h3>
+							<figure className={styles.bulletImageWrapper}>
+								<Image
+									src="/sam-solomon-dead-grass-lounging-unsplash.jpg"
+									width={500}
+									height={500}
+									layout="responsive"
+									// className={styles.bulletPointImage}
+								/>
+							</figure>
+						</div>
 						<p>
 							Even if you don't want to grow food on your property, changing your lawn to a drought-tolerant,
 							low-growing, grass alternative like clover, or a native wildflower mix helps native pollinator populations

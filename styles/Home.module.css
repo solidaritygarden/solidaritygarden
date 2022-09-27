@@ -40,6 +40,34 @@
 	max-height: 40vh;
 }
 
+#grassImageText {
+	margin-bottom: -20vh;
+	color: #6667ab;
+	z-index: 2;
+	/* max-width: 30%; */
+}
+
+.bulletImageWrapper {
+	padding: 2em;
+	position: relative;
+	z-index: 1;
+}
+
+.noMoreGrassLawns {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.noMoreGrassLawns > p {
+	max-width: 40%;
+}
+
+.bulletPointImage {
+	align-self: flex-start;
+	position: relative;
+}
+
 .cardTitles {
 	text-transform: uppercase;
 	font-weight: bolder;
@@ -57,6 +85,8 @@
 .point {
 	margin: 0em;
 	padding: 0em;
+	display: flex;
+	flex-direction: column;
 }
 
 .point > h3 {
