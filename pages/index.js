@@ -56,7 +56,7 @@ const Home = ({ title, description }) => {
 							style={{
 								display: 'flex',
 								flexDirection: 'column',
-								backgroundColor: 'teal',
+								// backgroundColor: 'teal',
 								contain: 'content',
 								padding: '2em',
 							}}

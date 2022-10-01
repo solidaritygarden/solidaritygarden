@@ -44,7 +44,6 @@
 	margin-bottom: -20vh;
 	color: #6667ab;
 	z-index: 2;
-	/* max-width: 30%; */
 }
 
 .bulletImageWrapper {
@@ -101,7 +100,6 @@
 
 .bulletPoints h3:first {
 	margin-top: 0em;
-	color: orange;
 }
 .point > p {
 	margin: 0;
